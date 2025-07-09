@@ -1,4 +1,4 @@
-IoT-Based Predictive Fault Detection System for Power Lines
+*IoT-Based Predictive Fault Detection System for Power Lines*
 An end-to-end IoT system built with an ESP32 to monitor, detect, and predict faults in simulated three-phase overhead power lines. The project features a real-time local web dashboard for on-site monitoring and cloud integration with ThingSpeak for remote data logging and visualization.
 
 Table of Contents
@@ -54,8 +54,6 @@ The web interface correctly displays live data and updates system status immedia
 
 Cloud Platform (ThingSpeak)
 The device successfully transmitted data to the cloud, creating a live, historical log of all monitored parameters. Fault events are clearly visible on the graphs.
-![alt text](images/thingspeak_dashboard.png)
-
 
 Setup and Installation
 Hardware: Assemble the circuit as shown in the hardware image. Ensure sensor inputs are connected to ADC1 pins (GPIO 32, 33, 34 are used in this code).
@@ -64,11 +62,11 @@ Open the .ino sketch file in the Arduino IDE.
 Install the required libraries: ESPAsyncWebServer and its AsyncTCP dependency.
 Update the following credentials in the code:
 Generated cpp
-// --- WiFi Credentials ---
+*// --- WiFi Credentials ---*
 const char* ssid = "YOUR_WIFI_SSID";
 const char* password = "YOUR_WIFI_PASSWORD";
 
-// --- ThingSpeak Credentials ---
+*// --- ThingSpeak Credentials ---*
 const char* thingspeak_api_key = "YOUR_THINGSPEAK_WRITE_API_KEY";
 Use code with caution.
 C++
