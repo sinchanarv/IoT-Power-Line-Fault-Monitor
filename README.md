@@ -38,7 +38,10 @@ Minimum hardware list (use the exact parts you used in the project):
 
 Demo screenshots of the dashboard/UI.
 
-[[!](https://github.com/sinchanarv/IoT-Power-Line-Fault-Monitor/blob/main/Screenshot%202025-06-29%20132824.png)]()
+[![](https://github.com/sinchanarv/IoT-Power-Line-Fault-Monitor/blob/main/Screenshot%202025-06-29%20132824.png)]()
+[![](https://github.com/sinchanarv/IoT-Power-Line-Fault-Monitor/blob/main/Screenshot%202025-06-29%20132846.png)]()
+
+
 > The repository is primarily implemented in C++ (Arduino).
 
 **Example (abstract):**
