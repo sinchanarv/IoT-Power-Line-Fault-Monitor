@@ -40,7 +40,7 @@ Demo screenshots of the dashboard.
 
 Fault status [![showing faults](https://github.com/sinchanarv/IoT-Power-Line-Fault-Monitor/blob/main/Screenshot%202025-06-29%20132824.png)]()
 Normal State [![normal state](https://github.com/Akash-R-04/IOT-power-lines-fault-detector/blob/main/Screenshot%202025-06-29%20132846.png)]()
-Thingspeak cloud [![(https://github.com/sinchanarv/IoT-Power-Line-Fault-Monitor/blob/main/Screenshot%202025-06-28%20232233.png)]()
+Thingspeak cloud [![Thingspeak cloud](https://github.com/sinchanarv/IoT-Power-Line-Fault-Monitor/blob/main/Screenshot%202025-06-28%20232233.png)]()
 
 Prototype [![prototype](https://github.com/sinchanarv/IoT-Power-Line-Fault-Monitor/blob/main/WhatsApp%20Image%202025-06-15%20at%2021.12.53_c1c33266.jpg)]()
 
