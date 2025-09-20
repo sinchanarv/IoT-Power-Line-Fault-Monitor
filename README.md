@@ -4,31 +4,31 @@
 
 ---
 
-## Table of contents
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Hardware](#hardware)
-- [Setup & Installation](#setup--installation)
+## 📌Table of contents
+- [📖Project Overview](#-project-overview)
+- [✨Features](#-features)
+- [🛰️Hardware](#-hardware)
+- [⚙️Setup & Installation](#-setup--installation)
   - [ThingSpeak setup](#thingspeak-setup)
   - [Flashing the ESP32](#flashing-the-esp32)
   - [Running the local dashboard](#running-the-local-dashboard)
 - [Usage](#usage)
 - [Data & Cloud Integration](#data--cloud-integration)
 - [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
+- [🤝Contributing](#-contributing)
 
 ---
 
-## Project overview
+## 📖Project overview
 This project implements a prototype IoT system that reads electrical parameters from overhead power line sensors using an ESP32, displays the current status on a local web dashboard and pushes telemetry to ThingSpeak for remote monitoring and simple analytics.
 
-## Features
+## ✨Features
 - Real-time data acquisition from sensors (voltage/current/phase) using ESP32.
 - Local web dashboard hosted on the ESP32 for immediate monitoring.
 - Telemetry upload to ThingSpeak for cloud storage/visualization.
 - Simple fault detection logic (threshold based) with alerts on the dashboard.
 
-## Hardware
+## 🛰️Hardware
 Minimum hardware list (use the exact parts you used in the project):
 - ESP32 development board (e.g. ESP32-WROOM-32)
 - Voltage sensing module(s) or potential transformer(s)
@@ -36,10 +36,13 @@ Minimum hardware list (use the exact parts you used in the project):
 - Level shifting / signal conditioning (as needed)
 - Breadboard / jumper wires / power supply
 
-Demo screenshots of the dashboard/UI.
+Demo screenshots of the dashboard.
 
-[![showing faults](https://github.com/sinchanarv/IoT-Power-Line-Fault-Monitor/blob/main/Screenshot%202025-06-29%20132824.png)]()
-[![normal state](https://github.com/sinchanarv/IoT-Power-Line-Fault-Monitor/blob/main/Screenshot%202025-06-29%20132846.png)]()
+Fault status [![showing faults](https://github.com/sinchanarv/IoT-Power-Line-Fault-Monitor/blob/main/Screenshot%202025-06-29%20132824.png)]()
+Normal State [![normal state](https://github.com/Akash-R-04/IOT-power-lines-fault-detector/blob/main/Screenshot%202025-06-29%20132846.png)]()
+Thingspeak cloud [![(https://github.com/sinchanarv/IoT-Power-Line-Fault-Monitor/blob/main/Screenshot%202025-06-28%20232233.png)]()
+
+Prototype [![prototype](https://github.com/sinchanarv/IoT-Power-Line-Fault-Monitor/blob/main/WhatsApp%20Image%202025-06-15%20at%2021.12.53_c1c33266.jpg)]()
 
 
 > The repository is primarily implemented in C++ (Arduino).
@@ -52,7 +55,7 @@ Demo screenshots of the dashboard/UI.
 
 **Safety:** Do NOT connect the ESP32 directly to high-voltage lines. Use transformers, potential/voltage dividers, isolation, and follow electrical safety standards.
 
-## Setup & Installation
+## ⚙️Setup & Installation
 1. Install Arduino IDE (or PlatformIO) and add ESP32 board support.
 2. Open `iottesting.ino` in Arduino IDE.
 3. Replace Wi‑Fi credentials and ThingSpeak API keys in the sketch (search for `ssid`, `password`, `thingspeak` or `API_KEY`).
@@ -84,7 +87,7 @@ Demo screenshots of the dashboard/UI.
 - If telemetry does not appear on ThingSpeak: verify API key, Channel ID, and network connectivity.
 - If ADC readings are noisy: add RC filtering, average samples in software, and calibrate offsets.
 
-## Contributing
+## 🤝Contributing
 Contributions are welcome!
 - Open an issue describing the feature or bug.
 - Fork the repo, create a branch (`feature/awesome`), make changes, and open a pull request.
